@@ -35,6 +35,6 @@
 
 13. Escribir una función recursiva para determinar si un elemento está en un arreglo utilizando búsqueda binaria. Calcule su eficiencia.
 
-14. Sean as y bs dos listas de enteros de tamaño n. Escribir una función que reciba como parámetros as, bs y un entero x y decida si x se puede escribir como suma de un elemento de as más un elemento de bs (por ejemplo, si as=[7,4,6,8], bs=[3,1,6,6] y x=7, la respuesta debe ser true, mientras que con los mismos as y bs, pero con x=2, la respuesta debe ser false). El tiempo de la función tiene que ser menor a O(n2). Justificar el tiempo.
+14. Programar la busqueda ternaria recursiva. Donde en lugar de dividir el arreglo en dos partes iguales, se divide en tres partes iguales. Calcular el orden.
 
 15. Se tiene un arreglo de n >= 3 elementos en forma de pico, esto es: estrictamente creciente hasta una determinada posición p, y estrictamente decreciente a partir de ella (con 0 < p < n-1). Por  ejemplo, en el arreglo [1,2,3,1,0,-2] la posición del pico es p=2. Se pide implementar un algoritmo de división y conquista de orden O(log n) que encuentre la posición p del pico.

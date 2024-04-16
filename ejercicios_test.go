@@ -102,12 +102,12 @@ func TestEjercicio13(t *testing.T) {
 	assert.False(t, BusquedaBinaria([]int{1, 2, 3, 4, 5}, 6))
 }
 
-func TestEjercicio14(t *testing.T) {
-	assert.True(t, SumaElementos([]int{7, 4, 6, 8}, []int{3, 1, 6, 6}, 7))
-	assert.False(t, SumaElementos([]int{7, 4, 6, 8}, []int{3, 1, 6, 6}, 2))
 
-	assert.True(t, SumaElementos([]int{1, 2, 3, 4, 5}, []int{1, 2, 3, 4, 5}, 4))
-	assert.False(t, SumaElementos([]int{1, 2, 3, 4, 5}, []int{1, 2, 3, 4, 5}, 11))
+func TestEjercicio14(t *testing.T) {
+	assert.Equal(t, 8, BusquedaTernariaRecursiva([]int{1, 2, 3, 4, 5, 6, 7, 8, 9}, 9))
+	assert.Equal(t, 0, BusquedaTernariaRecursiva([]int{1, 2, 3, 4, 5, 6, 7, 8, 9}, 1))
+	assert.Equal(t, 4, BusquedaTernariaRecursiva([]int{1, 2, 3, 4, 5, 6, 7, 8, 9}, 5))
+	assert.Equal(t, -1, BusquedaTernariaRecursiva([]int{1, 2, 3, 4, 5, 6, 7, 8, 9}, 10))
 }
 
 func TestEjercicio15(t *testing.T) {

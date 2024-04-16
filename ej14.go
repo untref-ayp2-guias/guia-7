@@ -1,10 +1,7 @@
 package guia7
 
-// Sean as y bs dos listas de enteros de tamaño n.
-// Escribir una función que reciba como parámetros
-// as, bs y un entero x y decida si x se puede
-// escribir como suma de un elemento de as más un
-// elemento de bs.
-func SumaElementos(as, bs []int, x int) bool {
-	// Implementar
+// Programar la busqueda ternaria recursiva. Donde en lugar de dividir el arreglo en dos partes iguales,
+// se divide en tres partes iguales. Calcular el orden
+func BusquedaTernariaRecursiva(arr []int, x int) int {
+	// Impmentar
 }
