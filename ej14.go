@@ -1,4 +1,4 @@
-package ejercicios
+package guia7
 
 // Sean as y bs dos listas de enteros de tamaño n.
 // Escribir una función que reciba como parámetros
@@ -6,5 +6,5 @@ package ejercicios
 // escribir como suma de un elemento de as más un
 // elemento de bs.
 func SumaElementos(as, bs []int, x int) bool {
-	panic("Not implemented")
+	// Implementar
 }

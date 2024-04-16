@@ -1,4 +1,4 @@
-package ejercicios
+package guia7
 
 import (
 	"testing"
@@ -31,12 +31,14 @@ func TestEjercicio04(t *testing.T) {
 }
 
 func TestEjercicio05(t *testing.T) {
-	var pila Stack
-	pila.Push(1)
-	pila.Push(2)
-	pila.Push(3)
-
-	assert.Equal(t, 3, CantidadDeElementos(pila))
+	assert.Equal(t, 4, Repeticiones("cataratas", 'a'))
+	assert.Equal(t, 2, Repeticiones("cataratas", 't'))
+	assert.Equal(t, 0, Repeticiones("cataratas", 'z'))
+	assert.Equal(t, 0, Repeticiones("", 'a'))
+	assert.Equal(t, 0, Repeticiones("cataratas", ' '))
+	assert.Equal(t, 1, Repeticiones("cataratas", 'c'))
+	assert.Equal(t, 1, Repeticiones("cataratas", 's'))
+	assert.Equal(t, 1, Repeticiones("cataratas", 'r'))
 }
 
 func TestEjercicio06(t *testing.T) {
