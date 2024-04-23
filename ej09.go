@@ -4,4 +4,5 @@ package guia7
 // y devuelva la suma de todos sus elementos.
 func SumaArray(v []int) int {
 	// Implementar
+	return 0
 }

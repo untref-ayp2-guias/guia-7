@@ -4,4 +4,5 @@ package guia7
 // está en un arreglo utilizando búsqueda binaria. Calcule su eficiencia.
 func BusquedaBinaria(arreglo []int, elemento int) bool {
 	// Implementar
+	return false
 }

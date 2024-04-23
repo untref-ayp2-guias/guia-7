@@ -4,4 +4,5 @@ package guia7
 // devuelva su equivalente en binario.
 func DecimalABinario(n int) string {
 	// Implementar
+	return ""
 }

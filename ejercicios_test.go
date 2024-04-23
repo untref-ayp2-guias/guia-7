@@ -102,7 +102,6 @@ func TestEjercicio13(t *testing.T) {
 	assert.False(t, BusquedaBinaria([]int{1, 2, 3, 4, 5}, 6))
 }
 
-
 func TestEjercicio14(t *testing.T) {
 	assert.Equal(t, 8, BusquedaTernariaRecursiva([]int{1, 2, 3, 4, 5, 6, 7, 8, 9}, 9))
 	assert.Equal(t, 0, BusquedaTernariaRecursiva([]int{1, 2, 3, 4, 5, 6, 7, 8, 9}, 1))

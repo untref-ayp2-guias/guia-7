@@ -5,4 +5,5 @@ package guia7
 // número de unos en la representación binaria de n/2, mas 1 si es impar.
 func CantidadDeUnos(n int) int {
 	// Implementar
+	return 0
 }

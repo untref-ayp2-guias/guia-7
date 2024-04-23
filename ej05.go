@@ -4,4 +4,5 @@ package guia7
 // y devuelva la cantidad de veces que aparece el caracter en la cadena.
 func Repeticiones(cadena string, caracter rune) int {
 	// Implementar
+	return 0
 }

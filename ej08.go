@@ -4,4 +4,5 @@ package guia7
 // de la división entera mediante restas sucesivas.
 func DivisionEntera(dividendo, divisor int) (cociente, resto int) {
 	// Implementar
+	return 0, 0
 }

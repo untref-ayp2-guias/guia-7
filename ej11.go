@@ -5,4 +5,5 @@ package guia7
 // Por ejemplo: esPotencia(8, 2) devuelve true.
 func EsPotencia(n, b int) bool {
 	// Implementar
+	return false
 }

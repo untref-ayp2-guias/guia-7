@@ -8,6 +8,5 @@ package guia7
 // que encuentre la posición p del pico.
 func Pico(arreglo []int) int {
 	// Implementar
+	return 0
 }
-
-

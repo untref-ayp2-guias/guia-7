@@ -4,4 +4,5 @@ package guia7
 // se divide en tres partes iguales. Calcular el orden
 func BusquedaTernariaRecursiva(arr []int, x int) int {
 	// Impmentar
+	return 0
 }

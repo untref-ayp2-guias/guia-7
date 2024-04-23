@@ -7,4 +7,5 @@ package guia7
 //	MCD(a, b) = MCD (b, a mod b)
 func MCD(a, b int) int {
 	// Implementar
+	return 0
 }
